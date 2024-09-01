@@ -3,7 +3,7 @@ local ESP_SETTINGS = {
     Teamcheck = false,   -- Only show ESP for enemy teams if true
     playerChams = false,  -- Change to true to enable player Chams (highlight players)
     glowChamsEnabled = false,  -- Change to true to enable glow around Chams
-    boxEspEnabled = false, -- Change to true to enable box ESP around players
+    boxEspEnabled = True, -- Change to true to enable box ESP around players
 }
 
 local function isValidSurface(part)
